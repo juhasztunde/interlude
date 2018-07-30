@@ -2,21 +2,21 @@
   background: #5C9F24;
 }
 ::selection {
-  background: #5C9F24;
+  background: #c52503;
 }
 
 a {
-  color: #5C9F24;
+  color: #c52503;
 }
 
 a:hover {
-	color: #33782D;
+	color: #c52503;
 }
 
 /* --- button theme --- */
 .btn-theme {
-  background: #5C9F24;
-  *background-color: #5C9F24;
+  background: #c52503;
+  *background-color: #c52503;
 }
 
 .btn-theme:hover,
@@ -24,42 +24,42 @@ a:hover {
 .btn-theme.active,
 .btn-theme.disabled,
 .btn-theme[disabled] {
-  background: #33782D;
-  *background: #33782D;
+  background: #c52503;
+  *background: #c52503;
 }
 
 .scrollup {
- background-color: #5C9F24;
+ background-color: #c52503;
 }
 
 /* fontawesome icons */
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #5C9F24;
+    background-color: #c52503;
 }
 
 
 ul.nav li.current {
-  color: #5C9F24;
+  color: #c52503;
 }
 
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:active,
 .navbar .nav > li.active > a {
-    color: #5C9F24 !important;
+    color: #c52503 !important;
 }
 
 .sy-pager li.sy-active a {
-  background-color: #5C9F24;
+  background-color: #c52503;
 }
 
 .navbar .nav > li > a:hover {
-  color: #5C9F24;
+  color: #c52503;
 }
 
 input:focus {
-	border: 1px solid #5C9F24;
+	border: 1px solid #c52503;
 	border-width:1px;
 }
 textarea:focus,
@@ -78,22 +78,22 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: #5C9F24;
+  border-color: #c52503;
 }
 
 
 /* tab */
 
 .nav-tabs > a {
-	color:#5C9F24;
+	color:#c52503;
 }
 
 
 /* accordion */
 .accordion-heading a:hover {
-	color: #5C9F24;
+	color: #c52503;
 }
 .accordion-heading .active{
-	color: #5C9F24;
+	color: #c52503;
 }
 
