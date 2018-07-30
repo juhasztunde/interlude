@@ -298,7 +298,8 @@
           <h3>Testimonials</h3>
         </header>
 
-        <div class="siema">
+        
+<div class="siema">
 
           <div class="testimonial-item">
             <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
@@ -357,10 +358,15 @@
 
         </div>
       
-      
-        <script src="siema.min.js"></script>
+        <script src="assets/js/siema.min.js"></script>
         <script>
-          new Siema();
+          const mySiema = new Siema({
+            duration: 800,
+            loop: true
+          });
+
+          // listen for keydown event
+          setInterval(() => mySiema.next(), 1000)
         </script>
 
       </div>
